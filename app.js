@@ -4,4 +4,4 @@ const port = process.env.PORT || 3001;
 
 app.get("/", (req, res) => res.send("Hello from Render!"));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`Auto deploy worked at port: ${port}!`));
